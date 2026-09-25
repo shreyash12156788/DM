@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artificial Intelligence & Data Science | AI & DS Digital Hub</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Artificial Intelligence & Data Science | AI & DS Digital Hub">
+  <meta name="description" content="A comprehensive academic digital hub for Artificial Intelligence and Data Science engineering. Explore core technology areas, learning journeys, career paths, research domains, and curated student resources.">
+  <meta name="keywords" content="Artificial Intelligence, Data Science, Machine Learning, Deep Learning, Computer Science Engineering, Academic Hub, MLOps, Data Engineering">
+  <meta name="author" content="AI & DS Digital Hub">
+  <meta name="robots" content="index, follow">
+
+  <!-- Canonical URL Placeholder -->
+  <link rel="canonical" href="https://YOUR-DOMAIN.com/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-DOMAIN.com/">
+  <meta property="og:title" content="Artificial Intelligence & Data Science | AI & DS Digital Hub">
+  <meta property="og:description" content="Academic reference and learning digital hub for Artificial Intelligence & Data Science engineering students, educators, and researchers.">
+  <meta property="og:image" content="https://YOUR-DOMAIN.com/assets/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://YOUR-DOMAIN.com/">
+  <meta property="twitter:title" content="Artificial Intelligence & Data Science | AI & DS Digital Hub">
+  <meta property="twitter:description" content="Academic reference and learning digital hub for Artificial Intelligence & Data Science engineering students, educators, and researchers.">
+  <meta property="twitter:image" content="https://YOUR-DOMAIN.com/assets/og-image.jpg">
+
+  <!-- Google Search Console verification tag goes here -->
+  <!--
+  <meta name="google-site-verification" content="PASTE_REAL_GOOGLE_CODE_HERE">
+  -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sticky Professional Navbar -->
+  <header class="navbar-header" id="navbar">
+    <div class="container navbar-container">
+      <a href="#home" class="brand-logo" aria-label="AI and DS Digital Hub Home">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="8" height="8" rx="2"></rect>
+            <rect x="14" y="2" width="8" height="8" rx="2"></rect>
+            <rect x="14" y="14" width="8" height="8" rx="2"></rect>
+            <rect x="2" y="14" width="8" height="8" rx="2"></rect>
+            <path d="M6 10v4"></path>
+            <path d="M10 6h4"></path>
+            <path d="M18 10v4"></path>
+            <path d="M10 18h4"></path>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">AI & DS</span>
+          <span class="logo-subtitle">Digital Hub</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Anchors -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#academics" class="nav-link">Academics</a></li>
+          <li><a href="#technology" class="nav-link">Technology</a></li>
+          <li><a href="#careers" class="nav-link">Careers</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#research" class="nav-link">Research</a></li>
+          <li><a href="#resources" class="nav-link">Resources</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Search & Theme Toggle & Mobile Toggle) -->
+      <div class="nav-actions">
+        <button id="searchBtn" class="icon-btn" aria-label="Search Topics" title="Search (Press Ctrl+K)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <button id="themeToggleBtn" class="icon-btn" aria-label="Toggle Dark Mode" title="Toggle Light/Dark Theme">
+          <!-- Sun Icon for Dark Mode, Moon Icon for Light Mode -->
+          <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <button id="mobileMenuBtn" class="hamburger-btn" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="navMenu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow-badge">
+            <span class="badge-dot"></span>
+            ARTIFICIAL INTELLIGENCE & DATA SCIENCE
+          </div>
+          <h1 class="hero-title">Learn. Build. Research. Innovate.</h1>
+          <p class="hero-description">
+            Explore Artificial Intelligence, Data Science, Machine Learning, Analytics and emerging technologies through academics, projects, research and practical learning.
+          </p>
+          <div class="hero-cta-group">
+            <a href="#academics" class="btn btn-primary">
+              Explore Academics
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </a>
+            <a href="#careers" class="btn btn-outline">
+              Explore Career Paths
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Academic Stages</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">12</span>
+              <span class="stat-label">Core Tech Pillars</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">6</span>
+              <span class="stat-label">Specialist Careers</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual (Clean CSS / SVG Academic Data Graphic) -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="tech-graphic-container">
+            <div class="grid-overlay"></div>
+            <svg class="network-svg" width="100%" height="100%" viewBox="0 0 500 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Network Lines -->
+              <line x1="120" y1="100" x2="250" y2="70" stroke="var(--border-color)" stroke-width="1.5" stroke-dasharray="4 4" />
+              <line x1="250" y1="70" x2="380" y2="110" stroke="var(--border-color)" stroke-width="1.5" />
+              <line x1="120" y1="100" x2="160" y2="230" stroke="var(--border-color)" stroke-width="1.5" />
+              <line x1="250" y1="70" x2="250" y2="210" stroke="var(--primary-color)" stroke-width="2" />
+              <line x1="380" y1="110" x2="340" y2="240" stroke="var(--border-color)" stroke-width="1.5" />
+              <line x1="160" y1="230" x2="250" y2="210" stroke="var(--primary-color)" stroke-width="2" />
+              <line x1="250" y1="210" x2="340" y2="240" stroke="var(--primary-color)" stroke-width="2" />
+              <line x1="160" y1="230" x2="140" y2="340" stroke="var(--border-color)" stroke-width="1.5" />
+              <line x1="250" y1="210" x2="250" y2="350" stroke="var(--primary-color)" stroke-width="2" />
+              <line x1="340" y1="240" x2="360" y2="340" stroke="var(--border-color)" stroke-width="1.5" stroke-dasharray="4 4" />
+              <line x1="140" y1="340" x2="250" y2="350" stroke="var(--border-color)" stroke-width="1.5" />
+              <line x1="250" y1="350" x2="360" y2="340" stroke="var(--border-color)" stroke-width="1.5" />
+
+              <!-- Nodes -->
+              <!-- Top Left -->
+              <g transform="translate(120, 100)">
+                <circle r="20" class="node-bg" />
+                <circle r="6" fill="var(--accent-color)" />
+                <text x="0" y="32" text-anchor="middle" class="node-text">Data Input</text>
+              </g>
+
+              <!-- Top Center -->
+              <g transform="translate(250, 70)">
+                <circle r="22" class="node-bg" />
+                <circle r="7" fill="var(--primary-color)" />
+                <text x="0" y="34" text-anchor="middle" class="node-text">Preprocessing</text>
+              </g>
+
+              <!-- Top Right -->
+              <g transform="translate(380, 110)">
+                <circle r="20" class="node-bg" />
+                <circle r="6" fill="var(--accent-color)" />
+                <text x="0" y="32" text-anchor="middle" class="node-text">Analytics</text>
+              </g>
+
+              <!-- Center Hub -->
+              <g transform="translate(250, 210)">
+                <circle r="36" class="node-center-glow" fill="none" stroke="var(--primary-color)" stroke-width="1.5" opacity="0.4" />
+                <circle r="28" class="node-bg-primary" />
+                <polygon points="0,-10 9,6 -9,6" fill="#FFFFFF" />
+                <text x="0" y="44" text-anchor="middle" class="node-text-highlight">Neural Core</text>
+              </g>
+
+              <!-- Middle Left -->
+              <g transform="translate(160, 230)">
+                <circle r="22" class="node-bg" />
+                <circle r="7" fill="var(--primary-color)" />
+                <text x="0" y="34" text-anchor="middle" class="node-text">Feature Eng.</text>
+              </g>
+
+              <!-- Middle Right -->
+              <g transform="translate(340, 240)">
+                <circle r="22" class="node-bg" />
+                <circle r="7" fill="var(--primary-color)" />
+                <text x="0" y="34" text-anchor="middle" class="node-text">Model Training</text>
+              </g>
+
+              <!-- Bottom Left -->
+              <g transform="translate(140, 340)">
+                <circle r="18" class="node-bg" />
+                <circle r="5" fill="var(--text-muted)" />
+                <text x="0" y="30" text-anchor="middle" class="node-text">Storage</text>
+              </g>
+
+              <!-- Bottom Center -->
+              <g transform="translate(250, 350)">
+                <circle r="24" class="node-bg" />
+                <circle r="8" fill="var(--accent-color)" />
+                <text x="0" y="36" text-anchor="middle" class="node-text-highlight">AI Inference</text>
+              </g>
+
+              <!-- Bottom Right -->
+              <g transform="translate(360, 340)">
+                <circle r="18" class="node-bg" />
+                <circle r="5" fill="var(--text-muted)" />
+                <text x="0" y="30" text-anchor="middle" class="node-text">Deployment</text>
+              </g>
+            </svg>
+
+            <!-- Academic Code Badge Component -->
+            <div class="visual-floating-card">
+              <div class="card-header-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+                <span class="card-title-sm">model_eval.py</span>
+              </div>
+              <pre class="code-snippet"><code><span class="kwd">import</span> torch
+<span class="kwd">class</span> <span class="cls">AIDSHubModel</span>(nn.Module):
+    <span class="kwd">def</span> <span class="func">forward</span>(self, x):
+        <span class="kwd">return</span> self.classifier(x)</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">FOUNDATIONAL OVERVIEW</span>
+          <h2 class="section-title">Artificial Intelligence & Data Science</h2>
+          <p class="section-lead">
+            Understanding the core pillars of modern computational intelligence and data-driven decision systems.
+          </p>
+        </div>
+
+        <div class="about-relationship-box">
+          <div class="relationship-content">
+            <h3>How These Fields Connect</h3>
+            <p>
+              <strong>Artificial Intelligence (AI)</strong> is the overarching engineering domain dedicated to creating systems capable of performing tasks that typically require human cognition. 
+              <strong>Machine Learning (ML)</strong> forms the algorithmic backbone of modern AI, enabling systems to learn patterns autonomously from data. 
+              <strong>Data Science (DS)</strong> combines mathematical modeling, statistical analysis, database engineering, and machine learning to extract actionable knowledge and predictive insight from structured and unstructured data.
+            </p>
+          </div>
+          <div class="relationship-visual">
+            <div class="venn-diagram">
+              <div class="venn-circle circle-ai"><span>Artificial Intelligence</span></div>
+              <div class="venn-circle circle-ml"><span>Machine Learning</span></div>
+              <div class="venn-circle circle-ds"><span>Data Science</span></div>
+              <div class="venn-center"><span>AI & DS</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid grid-3 cards-grid">
+          <!-- Card 1: AI -->
+          <article class="card domain-card">
+            <div class="card-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2a10 10 0 1 0 10 10H12V2z"></path>
+                <path d="M12 12L2.5 7.5"></path>
+                <path d="M12 12v10"></path>
+              </svg>
+            </div>
+            <h3 class="card-title">Artificial Intelligence</h3>
+            <p class="card-text">
+              The science and engineering of building intelligent machines, computational models, and autonomous agents that reason, solve problems, perceive environments, and make decisions.
+            </p>
+            <ul class="card-checklist">
+              <li>Knowledge Representation & Reasoning</li>
+              <li>Autonomous Systems & Robotics</li>
+              <li>Search Algorithms & Heuristics</li>
+            </ul>
+          </article>
+
+          <!-- Card 2: ML -->
+          <article class="card domain-card">
+            <div class="card-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="18" cy="18" r="3"></circle>
+                <circle cx="6" cy="6" r="3"></circle>
+                <path d="M13 6h3a2 2 0 0 1 2 2v7"></path>
+                <line x1="6" y1="9" x2="6" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Machine Learning</h3>
+            <p class="card-text">
+              A subfield of AI focused on constructing mathematical algorithms that improve automatically through empirical data experience without being explicitly programmed.
+            </p>
+            <ul class="card-checklist">
+              <li>Supervised & Unsupervised Learning</li>
+              <li>Deep Neural Networks</li>
+              <li>Reinforcement & Generalization</li>
+            </ul>
+          </article>
+
+          <!-- Card 3: DS -->
+          <article class="card domain-card">
+            <div class="card-icon-wrapper">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="card-title">Data Science</h3>
+            <p class="card-text">
+              An interdisciplinary field combining domain expertise, programming skills, probability, statistics, and data pipelines to extract meaningful insights from massive datasets.
+            </p>
+            <ul class="card-checklist">
+              <li>Exploratory Data Analysis (EDA)</li>
+              <li>Statistical Modeling & Testing</li>
+              <li>Big Data Pipelines & ETL</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACADEMICS SECTION -->
+    <section id="academics" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="disclaimer-badge">Typical Learning Journey</div>
+          <h2 class="section-title">Academic Learning Journey</h2>
+          <p class="section-lead">
+            A structured progressive framework illustrating how students build competence from foundational mathematical concepts to advanced research topics.
+          </p>
+          <p class="disclaimer-note">* Note: This represents a standard conceptual learning road map for academic guidance and is not an official university curriculum specification.</p>
+        </div>
+
+        <div class="journey-timeline">
+          <!-- Stage 01 -->
+          <div class="journey-step">
+            <div class="step-header">
+              <span class="step-num">01</span>
+              <div class="step-title-wrap">
+                <h3 class="step-title">Programming & Mathematics</h3>
+                <span class="step-phase">Foundational Stage</span>
+              </div>
+            </div>
+            <p class="step-desc">
+              Building algorithmic thinking, core programming logic, computational linear algebra, vector calculus, discrete mathematics, and foundation logic.
+            </p>
+            <div class="step-tags">
+              <span class="tag">Python & C++ Fundamentals</span>
+              <span class="tag">Linear Algebra</span>
+              <span class="tag">Calculus & Optimization</span>
+              <span class="tag">Probability Theory</span>
+            </div>
+          </div>
+
+          <!-- Stage 02 -->
+          <div class="journey-step">
+            <div class="step-header">
+              <span class="step-num">02</span>
+              <div class="step-title-wrap">
+                <h3 class="step-title">Data Structures, Statistics & Databases</h3>
+                <span class="step-phase">Core Computer Science</span>
+              </div>
+            </div>
+            <p class="step-desc">
+              Mastering efficient data structures, algorithm complexity analysis, relational database design, query optimization, and inferential statistics.
+            </p>
+            <div class="step-tags">
+              <span class="tag">Trees & Graphs</span>
+              <span class="tag">Relational SQL</span>
+              <span class="tag">Hypothesis Testing</span>
+              <span class="tag">Data Wrangling (Pandas)</span>
+            </div>
+          </div>
+
+          <!-- Stage 03 -->
+          <div class="journey-step">
+            <div class="step-header">
+              <span class="step-num">03</span>
+              <div class="step-title-wrap">
+                <h3 class="step-title">Machine Learning & Data Science</h3>
+                <span class="step-phase">Specialization Core</span>
+              </div>
+            </div>
+            <p class="step-desc">
+              Implementing supervised and unsupervised ML algorithms, statistical modeling, feature engineering techniques, evaluation metrics, and predictive analytics.
+            </p>
+            <div class="step-tags">
+              <span class="tag">Regression & Classification</span>
+              <span class="tag">Clustering & Dimensionality Reduction</span>
+              <span class="tag">Model Evaluation</span>
+              <span class="tag">Scikit-Learn</span>
+            </div>
+          </div>
+
+          <!-- Stage 04 -->
+          <div class="journey-step">
+            <div class="step-header">
+              <span class="step-num">04</span>
+              <div class="step-title-wrap">
+                <h3 class="step-title">Advanced AI, Projects & Research</h3>
+                <span class="step-phase">Advanced & Capstone</span>
+              </div>
+            </div>
+            <p class="step-desc">
+              Exploring deep learning architectures, generative models, natural language processing, computer vision, distributed MLOps systems, and independent capstone research.
+            </p>
+            <div class="step-tags">
+              <span class="tag">Deep Learning (PyTorch)</span>
+              <span class="tag">Transformers & LLMs</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Capstone Research Project</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY SECTION -->
+    <section id="technology" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">TECHNICAL STACK</span>
+          <h2 class="section-title">Core Technology Areas</h2>
+          <p class="section-lead">
+            Essential tools, languages, mathematical frameworks, and computing concepts shaping modern AI & Data Science engineering.
+          </p>
+        </div>
+
+        <div class="grid grid-4 tech-grid">
+          <!-- Python -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"></path><path d="M8 12h8"></path><path d="M12 8v8"></path></svg>
+            </div>
+            <h3 class="tech-title">Python</h3>
+            <p class="tech-desc">Primary ecosystem for data analysis, scientific computing, automation, and machine learning model implementation.</p>
+            <span class="tech-category">Language</span>
+          </div>
+
+          <!-- C++ -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+            </div>
+            <h3 class="tech-title">C++</h3>
+            <p class="tech-desc">High-performance language utilized for systems programming, real-time computer vision, and compute engine kernels.</p>
+            <span class="tech-category">Performance</span>
+          </div>
+
+          <!-- SQL -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            </div>
+            <h3 class="tech-title">SQL</h3>
+            <p class="tech-desc">Standard database query language for data retrieval, analytical aggregation, data warehousing, and schema management.</p>
+            <span class="tech-category">Data Query</span>
+          </div>
+
+          <!-- Statistics -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg>
+            </div>
+            <h3 class="tech-title">Statistics</h3>
+            <p class="tech-desc">Mathematical methods for probability distributions, hypothesis testing, confidence intervals, and regression analysis.</p>
+            <span class="tech-category">Mathematics</span>
+          </div>
+
+          <!-- Data Structures -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="14" y="14" width="8" height="8" rx="2"></rect><rect x="2" y="2" width="8" height="8" rx="2"></rect><line x1="6" y1="10" x2="6" y2="18"></line><line x1="6" y1="18" x2="14" y2="18"></line></svg>
+            </div>
+            <h3 class="tech-title">Data Structures</h3>
+            <p class="tech-desc">Fundamental computational constructs including arrays, hash tables, trees, graphs, queues, and memory organization.</p>
+            <span class="tech-category">Computer Science</span>
+          </div>
+
+          <!-- Machine Learning -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+            </div>
+            <h3 class="tech-title">Machine Learning</h3>
+            <p class="tech-desc">Algorithms including linear regression, decision trees, random forests, SVMs, gradient boosting, and clustering methods.</p>
+            <span class="tech-category">Algorithmic Core</span>
+          </div>
+
+          <!-- Deep Learning -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg>
+            </div>
+            <h3 class="tech-title">Deep Learning</h3>
+            <p class="tech-desc">Multi-layered neural architectures including CNNs, RNNs, LSTMs, Autoencoders, and Optimization algorithms.</p>
+            <span class="tech-category">Neural Nets</span>
+          </div>
+
+          <!-- Generative AI -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3"></path><path d="M18.36 5.64l-2.12 2.12"></path><path d="M21 12h-3"></path><path d="M18.36 18.36l-2.12-2.12"></path><path d="M12 21v-3"></path><path d="M5.64 18.36l2.12-2.12"></path><path d="M3 12h3"></path><path d="M5.64 5.64l2.12 2.12"></path></svg>
+            </div>
+            <h3 class="tech-title">Generative AI</h3>
+            <p class="tech-desc">Models capable of producing text, code, images, and audio using Transformer architectures, GANs, and Diffusion models.</p>
+            <span class="tech-category">Emerging Tech</span>
+          </div>
+
+          <!-- Computer Vision -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </div>
+            <h3 class="tech-title">Computer Vision</h3>
+            <p class="tech-desc">Image processing, visual feature extraction, object detection, image segmentation, and video analysis algorithms.</p>
+            <span class="tech-category">Perception</span>
+          </div>
+
+          <!-- Natural Language Processing -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </div>
+            <h3 class="tech-title">Natural Language Processing</h3>
+            <p class="tech-desc">Text tokenization, sentiment analysis, named entity recognition, machine translation, and semantic embeddings.</p>
+            <span class="tech-category">Language Tech</span>
+          </div>
+
+          <!-- Cloud Computing -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+            </div>
+            <h3 class="tech-title">Cloud Computing</h3>
+            <p class="tech-desc">Scalable infrastructure, distributed storage, serverless compute, and cloud platform services for AI workloads.</p>
+            <span class="tech-category">Infrastructure</span>
+          </div>
+
+          <!-- Data Engineering -->
+          <div class="card tech-card">
+            <div class="tech-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <h3 class="tech-title">Data Engineering</h3>
+            <p class="tech-desc">Building resilient data pipelines, ETL processes, data warehousing, streaming platforms, and data governance frameworks.</p>
+            <span class="tech-category">Pipelines</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CAREERS SECTION -->
+    <section id="careers" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">PROFESSIONAL OPPORTUNITIES</span>
+          <h2 class="section-title">Career Paths in AI & Data Science</h2>
+          <p class="section-lead">
+            Overview of specialized professional domain roles available to graduates of Artificial Intelligence and Data Science engineering.
+          </p>
+        </div>
+
+        <div class="grid grid-3 careers-grid">
+          <!-- Data Analyst -->
+          <article class="card career-card">
+            <div class="career-header">
+              <h3 class="career-role">Data Analyst</h3>
+              <span class="career-badge">Analytics</span>
+            </div>
+            <p class="career-desc">
+              Translates raw business and operational data into clear visual reports, dashboards, and statistical summaries to guide strategic decisions.
+            </p>
+            <div class="career-skills">
+              <span class="skill-label">Core Skills:</span>
+              <p>SQL, Python, Excel, PowerBI / Tableau, Descriptive Statistics, Data Visualization.</p>
+            </div>
+          </article>
+
+          <!-- Data Scientist -->
+          <article class="card career-card">
+            <div class="career-header">
+              <h3 class="career-role">Data Scientist</h3>
+              <span class="career-badge">Modeling</span>
+            </div>
+            <p class="career-desc">
+              Applies advanced statistical techniques, machine learning modeling, and experimental design to extract predictive insights from complex datasets.
+            </p>
+            <div class="career-skills">
+              <span class="skill-label">Core Skills:</span>
+              <p>Python/R, Inferential Statistics, Machine Learning, Feature Engineering, A/B Testing.</p>
+            </div>
+          </article>
+
+          <!-- Machine Learning Engineer -->
+          <article class="card career-card">
+            <div class="career-header">
+              <h3 class="career-role">Machine Learning Engineer</h3>
+              <span class="career-badge">Engineering</span>
+            </div>
+            <p class="career-desc">
+              Designs, builds, and deploys scalable production machine learning algorithms and software architecture that integrate with real-world applications.
+            </p>
+            <div class="career-skills">
+              <span class="skill-label">Core Skills:</span>
+              <p>Python, C++, PyTorch / TensorFlow, Algorithmic Optimization, Model Deployment, API Design.</p>
+            </div>
+          </article>
+
+          <!-- AI Engineer -->
+          <article class="card career-card">
+            <div class="career-header">
+              <h3 class="career-role">AI Engineer</h3>
+              <span class="career-badge">Intelligent Systems</span>
+            </div>
+            <p class="career-desc">
+              Develops intelligent applications leveraging large language models, computer vision systems, generative AI frameworks, and autonomous agents.
+            </p>
+            <div class="career-skills">
+              <span class="skill-label">Core Skills:</span>
+              <p>LLM Fine-Tuning, Prompt Engineering, Vector Databases, Computer Vision, RAG Architecture.</p>
+            </div>
+          </article>
+
+          <!-- Data Engineer -->
+          <article class="card career-card">
+            <div class="career-header">
+              <h3 class="career-role">Data Engineer</h3>
+              <span class="career-badge">Infrastructure</span>
+            </div>
+            <p class="career-desc">
+              Architects, constructs, and maintains large-scale data infrastructure, ETL pipelines, data warehouses, and streaming platforms.
+            </p>
+            <div class="career-skills">
+              <span class="skill-label">Core Skills:</span>
+              <p>SQL, Apache Spark, Data Warehousing, ETL Pipelines, Distributed Systems, Python/Scala.</p>
+            </div>
+          </article>
+
+          <!-- MLOps Engineer -->
+          <article class="card career-card">
+            <div class="career-header">
+              <h3 class="career-role">MLOps Engineer</h3>
+              <span class="career-badge">Operations</span>
+            </div>
+            <p class="career-desc">
+              Bridges machine learning and DevOps to manage CI/CD pipelines, automated model monitoring, experiment tracking, and production governance.
+            </p>
+            <div class="career-skills">
+              <span class="skill-label">Core Skills:</span>
+              <p>Docker, Kubernetes, MLflow, CI/CD Pipelines, Model Monitoring, Cloud Infrastructure.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="disclaimer-badge">Example Project Concepts</div>
+          <h2 class="section-title">Project Ideas</h2>
+          <p class="section-lead">
+            Illustrative engineering project concepts designed to help students understand practical domain applications and portfolio development.
+          </p>
+          <p class="disclaimer-note">* Note: These are example project concepts for educational inspiration, not active institutional student projects.</p>
+        </div>
+
+        <div class="grid grid-3 projects-grid">
+          <!-- Project 1 -->
+          <article class="card project-card">
+            <div class="project-tag">Example Project</div>
+            <h3 class="project-title">AI Healthcare Assistant</h3>
+            <div class="project-detail">
+              <strong>Problem:</strong> Preliminary medical symptom triaging and intelligent patient query assistance.
+            </div>
+            <div class="project-detail">
+              <strong>Technology:</strong> Python, NLP Transformers, BioBERT, FastAPI, Vector Database.
+            </div>
+            <div class="project-detail">
+              <strong>Expected Outcome:</strong> An interactive assistant capable of analyzing user symptoms and summarizing relevant health information safely.
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="card project-card">
+            <div class="project-tag">Example Project</div>
+            <h3 class="project-title">Student Performance Predictor</h3>
+            <div class="project-detail">
+              <strong>Problem:</strong> Early identification of academic risk factors to provide timely intervention support.
+            </div>
+            <div class="project-detail">
+              <strong>Technology:</strong> Python, Scikit-learn, Random Forest, Pandas, Streamlit.
+            </div>
+            <div class="project-detail">
+              <strong>Expected Outcome:</strong> A predictive model offering interpretability metrics on key factors influencing academic outcomes.
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="card project-card">
+            <div class="project-tag">Example Project</div>
+            <h3 class="project-title">Fake News Detection</h3>
+            <div class="project-detail">
+              <strong>Problem:</strong> Automated classification of online news text articles to detect misinformation patterns.
+            </div>
+            <div class="project-detail">
+              <strong>Technology:</strong> Python, TF-IDF, PassiveAggressive Classifier, DistilBERT, NLTK.
+            </div>
+            <div class="project-detail">
+              <strong>Expected Outcome:</strong> A text analysis tool evaluating credibility scores based on linguistic features and sources.
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="card project-card">
+            <div class="project-tag">Example Project</div>
+            <h3 class="project-title">AI Resume Analyzer</h3>
+            <div class="project-detail">
+              <strong>Problem:</strong> Matching applicant resume skills against technical job description requirements efficiently.
+            </div>
+            <div class="project-detail">
+              <strong>Technology:</strong> Python, Spacy NLP, Sentence-Transformers, Cosine Similarity, PDFMiner.
+            </div>
+            <div class="project-detail">
+              <strong>Expected Outcome:</strong> A skill gap analysis tool highlighting missing keywords and candidate relevance scoring.
+            </div>
+          </article>
+
+          <!-- Project 5 -->
+          <article class="card project-card">
+            <div class="project-tag">Example Project</div>
+            <h3 class="project-title">Customer Churn Prediction</h3>
+            <div class="project-detail">
+              <strong>Problem:</strong> Identifying subscription churn indicators in enterprise user behavior datasets.
+            </div>
+            <div class="project-detail">
+              <strong>Technology:</strong> Python, XGBoost, SHAP Explainer, Data Cleaning, Matplotlib.
+            </div>
+            <div class="project-detail">
+              <strong>Expected Outcome:</strong> A binary classification model delivering feature importance analysis for customer retention teams.
+            </div>
+          </article>
+
+          <!-- Project 6 -->
+          <article class="card project-card">
+            <div class="project-tag">Example Project</div>
+            <h3 class="project-title">Computer Vision Safety System</h3>
+            <div class="project-detail">
+              <strong>Problem:</strong> Real-time detection of personal protective equipment (PPE) compliance in industrial zones.
+            </div>
+            <div class="project-detail">
+              <strong>Technology:</strong> Python, YOLOv8, OpenCV, PyTorch, Real-time RTSP Streaming.
+            </div>
+            <div class="project-detail">
+              <strong>Expected Outcome:</strong> An automated vision system issuing alerts when safety gear violations occur in video streams.
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH SECTION -->
+    <section id="research" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">INNOVATION & DISCOVERY</span>
+          <h2 class="section-title">Research & Innovation</h2>
+          <p class="section-lead">
+            Frontier academic research domains driving technological advancement and societal transformation in artificial intelligence.
+          </p>
+        </div>
+
+        <div class="grid grid-3 research-grid">
+          <!-- Domain 1 -->
+          <div class="card research-card">
+            <div class="research-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+            </div>
+            <h3 class="research-title">Computer Vision</h3>
+            <p class="research-desc">
+              3D spatial reconstruction, visual object tracking, medical image segmentation, zero-shot visual detection, and autonomous perception algorithms.
+            </p>
+          </div>
+
+          <!-- Domain 2 -->
+          <div class="card research-card">
+            <div class="research-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </div>
+            <h3 class="research-title">Natural Language Processing</h3>
+            <p class="research-desc">
+              Multilingual neural machine translation, semantic context modeling, conversational agent architectures, and low-resource language processing.
+            </p>
+          </div>
+
+          <!-- Domain 3 -->
+          <div class="card research-card">
+            <div class="research-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"></path><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <h3 class="research-title">Generative AI</h3>
+            <p class="research-desc">
+              Latent diffusion models, parameter-efficient fine-tuning (PEFT), multimodal foundation models, and synthetic dataset synthesis methodologies.
+            </p>
+          </div>
+
+          <!-- Domain 4 -->
+          <div class="card research-card">
+            <div class="research-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3 class="research-title">Responsible AI & Ethics</h3>
+            <p class="research-desc">
+              Algorithmic fairness, model interpretability (Explainable AI - XAI), privacy-preserving machine learning, and AI safety governance frameworks.
+            </p>
+          </div>
+
+          <!-- Domain 5 -->
+          <div class="card research-card">
+            <div class="research-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><database></database><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+            </div>
+            <h3 class="research-title">Big Data Systems</h3>
+            <p class="research-desc">
+              Distributed stream processing, real-time analytics engines, data lakehouses, federated learning on edge devices, and memory optimization.
+            </p>
+          </div>
+
+          <!-- Domain 6 -->
+          <div class="card research-card">
+            <div class="research-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            </div>
+            <h3 class="research-title">AI + Cybersecurity</h3>
+            <p class="research-desc">
+              Adversarial machine learning, automated anomaly detection, network intrusion detection models, and malware signature classification.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESOURCES SECTION -->
+    <section id="resources" class="section-padding">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">STUDENT CURATION</span>
+          <h2 class="section-title">Student Learning Resources</h2>
+          <p class="section-lead">
+            Official documentation, established open-source repositories, and verified learning portals for computer science students.
+          </p>
+        </div>
+
+        <div class="grid grid-2 resources-grid">
+          <!-- Programming -->
+          <div class="resource-category-card">
+            <h3 class="resource-cat-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              Programming & Fundamentals
+            </h3>
+            <ul class="resource-links">
+              <li><a href="https://docs.python.org/3/" target="_blank" rel="noopener noreferrer">Python Official Documentation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+              <li><a href="https://en.cppreference.com/" target="_blank" rel="noopener noreferrer">Cppreference (C++ Reference) <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+            </ul>
+          </div>
+
+          <!-- DSA & SQL -->
+          <div class="resource-category-card">
+            <h3 class="resource-cat-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              Data Structures & SQL
+            </h3>
+            <ul class="resource-links">
+              <li><a href="https://www.postgresql.org/docs/" target="_blank" rel="noopener noreferrer">PostgreSQL Documentation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+              <li><a href="https://sqlite.org/docs.html" target="_blank" rel="noopener noreferrer">SQLite Official Documentation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+            </ul>
+          </div>
+
+          <!-- Machine Learning & AI -->
+          <div class="resource-category-card">
+            <h3 class="resource-cat-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a10 10 0 1 0 10 10H12V2z"></path></svg>
+              Machine Learning & Frameworks
+            </h3>
+            <ul class="resource-links">
+              <li><a href="https://scikit-learn.org/stable/" target="_blank" rel="noopener noreferrer">Scikit-Learn Documentation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+              <li><a href="https://pytorch.org/docs/stable/index.html" target="_blank" rel="noopener noreferrer">PyTorch Documentation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+            </ul>
+          </div>
+
+          <!-- Data Science & Analytics -->
+          <div class="resource-category-card">
+            <h3 class="resource-cat-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              Data Science Libraries
+            </h3>
+            <ul class="resource-links">
+              <li><a href="https://pandas.pydata.org/docs/" target="_blank" rel="noopener noreferrer">Pandas User Guide <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+              <li><a href="https://numpy.org/doc/stable/" target="_blank" rel="noopener noreferrer">NumPy Documentation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+            </ul>
+          </div>
+
+          <!-- Git & Open Source -->
+          <div class="resource-category-card">
+            <h3 class="resource-cat-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              Git & Collaboration
+            </h3>
+            <ul class="resource-links">
+              <li><a href="https://git-scm.com/doc" target="_blank" rel="noopener noreferrer">Git Official Documentation <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+              <li><a href="https://docs.github.com/en" target="_blank" rel="noopener noreferrer">GitHub Docs <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+            </ul>
+          </div>
+
+          <!-- Research Papers -->
+          <div class="resource-category-card">
+            <h3 class="resource-cat-title">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+              Research & Literature
+            </h3>
+            <ul class="resource-links">
+              <li><a href="https://arxiv.org/list/cs.AI/recent" target="_blank" rel="noopener noreferrer">arXiv Artificial Intelligence Preprints <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+              <li><a href="https://paperswithcode.com/" target="_blank" rel="noopener noreferrer">Papers with Code <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding bg-alt">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">COMMUNICATION</span>
+          <h2 class="section-title">Contact & Department Details</h2>
+          <p class="section-lead">
+            Reach out for academic inquiries, department guidance, or research collaboration.
+          </p>
+        </div>
+
+        <div class="grid grid-2 contact-grid">
+          <!-- Placeholder Department Details -->
+          <div class="card contact-info-card">
+            <div class="placeholder-notice">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+              <span>Replace with actual department information</span>
+            </div>
+            <h3 class="contact-info-title">Department Directory</h3>
+            
+            <div class="info-list">
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <div>
+                  <span class="info-label">Department</span>
+                  <p class="info-val">[Department of Artificial Intelligence & Data Science]</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                </div>
+                <div>
+                  <span class="info-label">College / Institution</span>
+                  <p class="info-val">[Engineering College Name / Institution]</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <span class="info-label">Email Address</span>
+                  <p class="info-val">[aids-dept@college-domain.edu]</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                </div>
+                <div>
+                  <span class="info-label">Phone Contact</span>
+                  <p class="info-val">[+1 (555) 019-2831 / Office Extension]</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <div class="info-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div>
+                  <span class="info-label">Campus Address</span>
+                  <p class="info-val">[Block B, Engineering Campus, Tech Avenue, City, Country]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Academic Inquiry Form -->
+          <div class="card contact-form-card">
+            <h3 class="contact-info-title">Send an Academic Inquiry</h3>
+            <form id="contactForm" class="contact-form" action="#" method="POST" onsubmit="return false;">
+              <div class="form-group">
+                <label for="contactName" class="form-label">Full Name</label>
+                <input type="text" id="contactName" class="form-input" placeholder="e.g. Alex Morgan" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Email Address</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="e.g. alex@student.edu" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactCategory" class="form-label">Inquiry Topic</label>
+                <select id="contactCategory" class="form-select" required>
+                  <option value="" disabled selected>Select an academic category</option>
+                  <option value="academic">Academic & Curriculum Inquiry</option>
+                  <option value="research">Research Collaboration</option>
+                  <option value="projects">Student Project Guidance</option>
+                  <option value="general">General Information</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea id="contactMessage" class="form-textarea" rows="4" placeholder="Enter your inquiry details..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                Submit Inquiry
+              </button>
+              
+              <div id="formFeedback" class="form-feedback" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- SEARCH MODAL -->
+  <div id="searchModal" class="search-modal" aria-hidden="true">
+    <div class="search-modal-backdrop" id="searchBackdrop"></div>
+    <div class="search-modal-content">
+      <div class="search-input-wrapper">
+        <svg class="search-input-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="search" id="searchInput" class="search-input" placeholder="Search technologies, careers, projects..." aria-label="Search content">
+        <button id="closeSearchBtn" class="search-close-btn" aria-label="Close search modal">Esc</button>
+      </div>
+      <div id="searchResults" class="search-results-list">
+        <div class="search-placeholder-state">
+          <p>Type keywords like <em>Python</em>, <em>Deep Learning</em>, <em>Data Scientist</em>, or <em>Project</em>...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Footer Brand -->
+        <div class="footer-brand">
+          <a href="#home" class="brand-logo footer-logo">
+            <div class="logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="8" height="8" rx="2"></rect><rect x="14" y="2" width="8" height="8" rx="2"></rect><rect x="14" y="14" width="8" height="8" rx="2"></rect><rect x="2" y="14" width="8" height="8" rx="2"></rect></svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-title">AI & DS</span>
+              <span class="logo-subtitle">Digital Hub</span>
+            </div>
+          </a>
+          <p class="footer-tagline">
+            An academic digital portal dedicated to Artificial Intelligence & Data Science engineering education, research, and technical career readiness.
+          </p>
+        </div>
+
+        <!-- Quick Navigation -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About AI & DS</a></li>
+            <li><a href="#academics">Learning Journey</a></li>
+            <li><a href="#technology">Core Technologies</a></li>
+            <li><a href="#careers">Career Paths</a></li>
+          </ul>
+        </div>
+
+        <!-- More Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#projects">Project Ideas</a></li>
+            <li><a href="#research">Research Domains</a></li>
+            <li><a href="#resources">Student Resources</a></li>
+            <li><a href="#contact">Department Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Placeholders -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Connect</h4>
+          <div class="social-links">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 AI &amp; Data Science Digital Hub. All rights reserved.</p>
+        <p class="footer-subtext">Designed for academic excellence, technical education, and engineering student guidance.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
